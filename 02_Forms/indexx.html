@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Formulario</h1>
+    </header>
+
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div class="control-group">
+                <label for="nombre_id">Cual es tu nombre?</label>
+                <input type="text" name="nombre" id="nombre_id" >
+                
+            </div>
+            <div class="control-group">
+                <label for="apellido_id">Apellidos?</label>
+                <input type="text" name="apellido" id="apellido_id" placeholder="apellidos completos" 
+                autofocus >
+            </div>
+
+            <div class="control-group">
+                    <label for="pais_id">Código de País?</label>
+                    <input type="text" name="pais" id="pais_id" value="RD" maxlength="2">
+                </div>
+    
+            <div class="control-group">
+                <label for="pws_id">Código de País?</label>
+                <input type="password" name="pais" id="pws_id" required>
+            </div>
+        
+    
+
+        </fieldset>
+
+        <fieldset>
+                <legend>Perfil</legend>
+                <div class="control-group">
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" required>
+                </div>
+                <div class="control-group">
+                    <label for="url">Pagina Web</label>
+                    <input type="url" name="url" id="url" required>
+                </div>
+                <div class="control-group">
+                    <label for="tfno">Teléfono</label>
+                    <input type="tel" name="tfno" id="tfno">
+                </div>
+                <div class="control-group">
+                    <label for="buscar">Buscar</label>
+                    <input type="search" name="buscar" id="buscar">
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informacion Extra</legend>
+            <textarea name="info" id="info" cols="30" rows="10"></textarea>
+        </fieldset>
+
+    
+            <button>enviar</button>
+    </form>
+    
+</body>
+</html>
