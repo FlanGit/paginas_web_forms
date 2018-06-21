@@ -13,8 +13,33 @@
 
 <body>
     <header>
-        <h1>Formularios</h1>
+        <h1>Contacta con Nosotros</h1>
     </header>
+    <form id="form_principal" action="">
+       <div class="wrapper_princ">
+           <i class="fas fa-envelope-square"></i>
+            <div class="form-input">
+                <input type="text" name="nombre" id="nombre" autofocus required autocomplete="nombre" placeholder="Nombre">
+                <i class="fas fa-ambulance">::before</i>
+                
+            </div>
+            <div class="form-input">
+                <input type="tel" name="tfno" id="tfno" placeholder="Teléfono">
+            </div>
+            <div class="form-input">
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+            </div>  
+            <div class="form-input">
+                <textarea name="info" id="info" placeholder="Comentarios"></textarea>
+                <i class="ion fa-lg ion-android-mail"></i>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
     <form id="form_ingresos" action="">
         <input type="hidden" name="type" value="form_ingresos">
         <fieldset>
@@ -23,6 +48,7 @@
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="nombre" autofocus>
             </div>
+            
             <div class="control-group">
                 <label for="apellido">Apellido</label>
                 <input type="text" name="apellido" id="apellido" placeholder="Apellidos completos">

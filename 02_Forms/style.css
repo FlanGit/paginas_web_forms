@@ -1,7 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     margin: 2rem;
 }
 
+.wrapper_princ{
+width: 50%;
+
+}
+
+.form-input{
+    color: #FFF;
+    padding: 0 0 0 2.5rem;
+    margin-bottom: 1rem;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    font-weight: 300;
+
+}
 .control-group {
     display: flex;
     justify-content: space-between;
@@ -11,7 +28,7 @@ body {
 } 
 .textarea-group {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 60%;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
