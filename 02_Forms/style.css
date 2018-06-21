@@ -1,14 +1,32 @@
-body{
-    margin: 2r;
+body {
+    margin: 2rem;
 }
-.control-group{
+
+.control-group {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
-
+} 
+.textarea-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
-fieldset{
-    width: 50%;
+
+.check-group {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 60%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+textarea {
+    width: 20rem;
+    height: 10rem;;
 }
