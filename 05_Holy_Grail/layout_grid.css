@@ -28,7 +28,6 @@ body{
     "footer  footer  footer";
 }
 
-/* verlo en navegador firefox f12*/
 
 header {grid-area: header;}
 footer {grid-area: footer;} 

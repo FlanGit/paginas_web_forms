@@ -5,18 +5,31 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row-reverse;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 60%;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
-} 
+}
 
+.check-group {
+    display: flex;
+    align-items: center;
+}
+.check-group input {
+    margin-right: 1rem;
+}
 
 *:required {
     -webkit-box-shadow: .2rem .1rem .2rem .2rem gray;
             box-shadow: .2rem .1rem .2rem .2rem gray;
+} 
+*:required + ::after{
+    content: "*";
+    font-size: 1.3rem;
+    color: red;
 } 
 
 input[type="text"]:optional {
