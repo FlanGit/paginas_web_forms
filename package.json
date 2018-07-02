@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"parallelshell \"npm run server \"  \"npm run pug\"  ",
+    "start": "parallelshell \"npm run server \"  \"npm run pug\"  ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pug":"pug -w -P ./06_Pug/src -o ./06_Pug/dist",
-    "server":"http-server"
-    },
+    "pug": "pug -w -P ./06_Pug/src -o ./06_Pug/dist",
+    "server": "http-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlanGit/paginas_web_forms.git"
