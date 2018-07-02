@@ -1,3 +1,3 @@
-function saludar(){
-    alert('jelouuuu q si queda alguien vivo')
+function saludar() {
+    alert('Hola Amigos')
 }
