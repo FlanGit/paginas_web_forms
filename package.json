@@ -1,25 +1,26 @@
 {
   "name": "paginas_web_forms",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio de CSS. unidad 3 del módulo 1",
   "main": "index.js",
   "scripts": {
-    "start": "parallelshell \"npm run server \"  \"npm run pug\"  ",
+    "start": "parallelshell \"npm run srv\" \"npm run pug:w\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pug": "pug -w -P ./06_Pug/src -o ./06_Pug/dist",
-    "server": "http-server"
+    "pug": "pug -P -O ./06_Pug/config.json ./06_Pug/src -o ./06_Pug/dist",
+    "pug:w": "pug -w -P -O ./06_Pug/config.json ./06_Pug/src -o ./06_Pug/dist",
+    "srv": "http-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlanGit/paginas_web_forms.git"
+    "url": "git+https://github.com/alce65/paginas_web_forms.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alejandro Cerezo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FlanGit/paginas_web_forms/issues"
+    "url": "https://github.com/alce65/paginas_web_forms/issues"
   },
-  "homepage": "https://github.com/FlanGit/paginas_web_forms#readme",
+  "homepage": "https://github.com/alce65/paginas_web_forms#readme",
   "dependencies": {
     "bootstrap": "^4.1.1"
   },
