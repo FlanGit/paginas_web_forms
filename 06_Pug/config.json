@@ -1,7 +1,7 @@
 {
     "idioma": "es",
     "metaLenguaje": "Pug",
-    "titulo": "Iniciando PUG",
+    "titulo": "Iniciando PUG.",
     "menuItems": ["Home", "Avanzado", "About"],
     "cursos" : [ 
         {"nombre": "C#", "codigo":"37"}, 
